@@ -42,17 +42,17 @@ export default function PropertyPage({ params }: { params: { slug: string } }) {
       <section className="py-14 md:py-20">
         <div className="mx-auto grid max-w-[1100px] gap-10 px-6 md:grid-cols-[1.25fr_0.75fr]">
           <div>
-            <h2 className="font-serif text-3xl leading-tight text-slate-900 md:text-4xl">A practical apartment for a longer Bucerias stay.</h2>
+            <h2 className="font-serif text-3xl leading-tight text-slate-900 md:text-4xl">A comfortable Bucerias base you can settle into.</h2>
             <p className="mt-5 text-[17px] leading-[1.85] text-slate-900/72">{property.description}</p>
-            <p className="mt-5 text-[17px] leading-[1.85] text-slate-900/72">Suites Angelica is best for guests who care about location, comfort, and simplicity. The building has only 8 apartments, a shared pool, and a Golden Zone location about 3 blocks from the beach.</p>
-            <p className="mt-5 text-[17px] leading-[1.85] text-slate-900/72">For current availability, monthly pricing, and seasonal options, please send us your preferred dates and length of stay.</p>
+            <p className="mt-5 text-[17px] leading-[1.85] text-slate-900/72">Suites Angelica is best for guests who care about location, affordability, comfort, and an easy walkable lifestyle. The building has only 8 apartments, a shared pool, and a Golden Zone location about 3 blocks from the beach.</p>
+            <p className="mt-5 text-[17px] leading-[1.85] text-slate-900/72">For current availability, annual lease options, seasonal stays, monthly pricing, or shorter visits when available, please send us your preferred dates and length of stay.</p>
           </div>
           <aside className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
             <h3 className="font-serif text-2xl text-slate-900">Apartment details</h3>
             <ul className="mt-5 space-y-3 text-[15px] leading-[1.7] text-slate-700">
               {property.features.map((feature) => <li key={feature} className="flex gap-3"><span className="mt-[10px] h-[2px] w-3 bg-slate-900/40" />{feature}</li>)}
             </ul>
-            <div className="mt-6 border-t border-slate-200 pt-5 text-[14px] leading-[1.7] text-slate-600">Best suited for monthly, seasonal, and extended stays. Availability may vary by winter season.</div>
+            <div className="mt-6 border-t border-slate-200 pt-5 text-[14px] leading-[1.7] text-slate-600">Best suited for annual leases, seasonal stays, and monthly rentals. A limited number of shorter stays may be available depending on the season.</div>
           </aside>
         </div>
       </section>
@@ -60,7 +60,7 @@ export default function PropertyPage({ params }: { params: { slug: string } }) {
       <section className="bg-[#f6f0e8] py-16 md:py-20">
         <div className="mx-auto max-w-[820px] px-6 text-center">
           <h2 className="font-serif text-3xl text-slate-900 md:text-4xl">Interested in {property.name}?</h2>
-          <p className="mt-4 text-[17px] leading-[1.75] text-slate-900/70">Send us your dates and we will let you know whether this apartment, or another apartment in the building, is available for your stay.</p>
+          <p className="mt-4 text-[17px] leading-[1.75] text-slate-900/70">Send us your dates and preferred rental length. We will let you know whether this apartment, or another apartment in the building, is available for an annual lease, seasonal stay, monthly rental, or shorter visit.</p>
           <div className="mt-8"><Link href="/contact" className="inline-flex h-11 items-center justify-center rounded-lg border border-slate-900/40 px-5 text-[15px] font-medium text-slate-900 transition hover:bg-slate-900/[0.03]">Ask About Availability</Link></div>
         </div>
       </section>
