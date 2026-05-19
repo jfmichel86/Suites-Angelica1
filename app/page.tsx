@@ -25,10 +25,10 @@ export default function Home() {
           <div className="relative z-10 max-w-[700px] py-16 md:py-24">
             <p className="text-[12px] font-semibold uppercase tracking-[0.22em] text-slate-900/50">Bucerias Golden Zone · Nayarit, Mexico</p>
             <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-[-0.015em] text-slate-900 sm:text-5xl md:text-6xl">
-              A simple, well-located home base for your Bucerias season.
+              Your own easy home base in Bucerias’ Golden Zone.
             </h1>
             <p className="mt-6 max-w-[640px] text-[18px] leading-[1.75] text-slate-900/72">
-              Suites Angelica is a small tower of 8 practical apartments in Bucerias’ Golden Zone, ideal for Canadians looking for a comfortable place to stay for several weeks, a few months, or the full winter season.
+                Suites Angelica is a small tower of 8 warm, rustic-style apartments in one of Bucerias’ most walkable areas. A comfortable option for Canadians who want an affordable place to return to, settle into, and enjoy the Bucerias lifestyle.
             </p>
             <div className="mt-8 flex flex-wrap gap-4"><Button href="/properties">View Apartments</Button><Link href="/contact" className="inline-flex h-11 items-center text-[15px] font-medium underline underline-offset-4">Ask About Availability</Link></div>
           </div>
@@ -38,9 +38,9 @@ export default function Home() {
       <section className="bg-[#f1f4f8]">
         <Container>
           <div className="mx-auto max-w-[860px] py-16 text-center md:py-24">
-            <SectionTitle>Not fancy. Just easy, friendly, and close to what matters.</SectionTitle>
-            <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">
-              Our apartments are small, straightforward, and made for everyday living. The value is in the location, the shared pool, the quiet building size, and the convenience of being close to the beach, restaurants, cafes, shops, and the relaxed Bucerias lifestyle.
+            <SectionTitle>Relaxed, affordable apartments in a location that makes daily life easy.</SectionTitle>
+              <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">
+                Suites Angelica offers a simple coastal living experience with a warm, rustic character. The real value is the location, the shared pool, the small building atmosphere, and the ability to walk to the beach, restaurants, cafes, shops, and everyday essentials.
             </p>
           </div>
         </Container>
@@ -53,7 +53,7 @@ export default function Home() {
               <SectionTitle>Stay in the area many Canadian visitors choose year after year.</SectionTitle>
               <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">Suites Angelica is in Bucerias’ Golden Zone, one of the most walkable and desirable parts of town. From here, you can enjoy simple daily routines without depending on a car.</p>
               <ul className="mt-6 space-y-3 text-[16px] leading-[1.75] text-slate-900/75">
-                {['About 3 blocks from the beach','Shared pool for residents and guests','Close to restaurants, cafes, and everyday essentials','Small building with only 8 apartments','A practical option for monthly and seasonal stays'].map((item) => <li key={item} className="flex gap-3"><span className="mt-[10px] h-[2px] w-3 bg-slate-900/40" />{item}</li>)}
+                {['About 3 blocks from the beach','Shared pool for residents and guests','Close to restaurants, cafes, and everyday essentials','Small building with only 8 apartments','A practical option for annual, monthly, and seasonal stays'].map((item) => <li key={item} className="flex gap-3"><span className="mt-[10px] h-[2px] w-3 bg-slate-900/40" />{item}</li>)}
               </ul>
             </div>
             <div className="relative overflow-hidden rounded-2xl">
@@ -67,7 +67,7 @@ export default function Home() {
         <Container>
           <div className="py-16 md:py-24">
             <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end"><SectionTitle>Explore the apartments</SectionTitle><Button href="/properties">See All 8 Apartments</Button></div>
-            <p className="mt-4 max-w-[720px] text-[16px] leading-[1.75] text-slate-900/68">Each suite is modest and practical, with the same main advantage: a convenient Golden Zone location and access to the shared pool.</p>
+            <p className="mt-4 max-w-[720px] text-[16px] leading-[1.75] text-slate-900/68">Each apartment has its own simple charm, with the same main advantages: an affordable setup, a convenient Golden Zone location, and access to the shared pool.</p>
             <div className="mt-10 grid gap-8 md:grid-cols-3">
               {featured.map((property) => (
                 <Link href={`/properties/${property.slug}`} key={property.slug} className="group overflow-hidden rounded-2xl border border-slate-200/70 bg-white shadow-sm transition hover:-translate-y-[2px] hover:shadow-lg">
@@ -83,8 +83,8 @@ export default function Home() {
       <section className="bg-white">
         <Container>
           <div className="mx-auto max-w-[780px] py-16 text-center md:py-24">
-            <SectionTitle>Planning a longer stay in Bucerias?</SectionTitle>
-            <p className="mt-5 text-[17px] leading-[1.75] text-slate-900/70">Send us your preferred dates, approximate length of stay, and number of guests. We will reply with clear information about availability and which apartment may be the best fit.</p>
+            <SectionTitle>Looking for a place you can come back to every year?</SectionTitle>
+            <p className="mt-5 text-[17px] leading-[1.75] text-slate-900/70">Ask us about current availability for annual leases, seasonal stays, or shorter visits. Many guests prefer having a familiar second home in Bucerias where they can return year after year.</p>
             <div className="mt-8"><Button href="/contact">Contact Us</Button></div>
           </div>
         </Container>
