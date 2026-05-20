@@ -28,7 +28,7 @@ export default function Properties() {
                   <div className="p-6">
                     <div className="text-[12px] font-semibold uppercase tracking-[0.16em] text-slate-900/40">{property.floor} · {property.bedrooms}</div>
                     <h2 className="mt-2 font-serif text-2xl leading-tight text-slate-900">{property.name}</h2>
-                    <p className="mt-3 text-[15px] leading-[1.65] text-slate-600">{property.summary}</p>
+                    {/* Summary removed for cleaner card design */}
                     <p className="mt-4 text-[14px] font-medium text-slate-900/75">View apartment details →</p>
                   </div>
                 </div>
