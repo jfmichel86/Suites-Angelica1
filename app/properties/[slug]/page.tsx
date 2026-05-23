@@ -11,8 +11,8 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const property = getProperty(params.slug);
   if (!property) return { title: "Apartment" };
   return {
-    title: `${property.name} in Bucerias`,
-    description: property.summary,
+    title: `${property.name} | Furnished Apartment in Bucerias Golden Zone`,
+  description: `${property.name} is a furnished apartment for rent in Bucerias' Golden Zone, near the beach, restaurants, cafes, and everyday essentials.`,
   };
 }
 
@@ -42,13 +42,13 @@ export default function PropertyPage({ params }: { params: { slug: string } }) {
       <section className="py-14 md:py-20">
         <div className="mx-auto grid max-w-[1100px] gap-10 px-6 md:grid-cols-[1.25fr_0.75fr]">
           <div>
-            <h2 className="font-serif text-3xl leading-tight text-slate-900 md:text-4xl">   Simple comfort in Bucerias’ Golden Zone. </h2>
+            <h2 className="font-serif text-3xl leading-tight text-slate-900 md:text-4xl">   Furnished apartment in Bucerias’ Golden Zone. </h2>
             <p className="mt-5 text-[17px] leading-[1.85] text-slate-900/72">{property.description}</p>
             <ul className="mt-6 space-y-3 text-[17px] leading-[1.7] text-slate-900/72">
   <li>• About 3 blocks from the beach</li>
   <li>• Shared pool</li>
   <li>• Walkable Golden Zone location</li>
-  <li>• Annual, monthly, seasonal, and limited shorter stays</li>
+  <li>• Monthly, seasonal, and long-term rental options</li>
 </ul>
           </div>
           <aside className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
