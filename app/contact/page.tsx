@@ -13,9 +13,7 @@ export default function ContactPage() {
       <section className="bg-white">
         <Container>
           <div className="mx-auto max-w-[780px] py-16 text-center md:py-24">
-            <p className="text-[12px] font-semibold uppercase tracking-[0.22em] text-slate-900/45">Contact</p>
             <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-tight text-slate-900 md:text-5xl">Ask about availability at Suites Angelica.</h1>
-            <p className="mt-6 max-w-[560px] text-[17px] leading-[1.65] text-slate-900/70">   Tell us your dates, preferred rental length, and number of guests. We will reply with available options. </p>
           </div>
         </Container>
       </section>
@@ -49,7 +47,6 @@ export default function ContactPage() {
         <Container>
           <div className="mx-auto max-w-[700px] space-y-4 py-16 text-center md:py-24">
             <h3 className="font-serif text-3xl leading-[1.12] tracking-tight text-slate-900 md:text-4xl">An affordable place to make Bucerias feel familiar.</h3>
-            <p className="text-[17px] text-slate-900/75">   Rustic-style apartments, shared pool, and a walkable Golden Zone location. </p>
           </div>
         </Container>
       </section>
