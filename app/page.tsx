@@ -27,8 +27,8 @@ export default function Home() {
             <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-[-0.015em] text-slate-900 sm:text-5xl md:text-6xl">
               Your own easy home base in Bucerias’ Golden Zone.
             </h1>
-            <p className="mt-6 max-w-[640px] text-[18px] leading-[1.75] text-slate-900/72">
-                Suites Angelica is a small tower of 8 warm, rustic-style apartments in one of Bucerias’ most walkable areas. A comfortable option for expats, remote workers, retirees, and long-stay visitors looking for an affordable place to settle into.
+            <p className="mt-6 max-w-[560px] text-[18px] leading-[1.65] text-slate-900/72">
+              Warm, rustic-style apartments in Bucerias’ Golden Zone, close to the beach, restaurants, cafes, and everyday essentials.
             </p>
             <div className="mt-8 flex flex-wrap gap-4"><Button href="/properties">View Apartments</Button><Link href="/contact" className="inline-flex h-11 items-center text-[15px] font-medium underline underline-offset-4">Ask About Availability</Link></div>
           </div>
@@ -39,9 +39,24 @@ export default function Home() {
         <Container>
           <div className="mx-auto max-w-[860px] py-16 text-center md:py-24">
             <SectionTitle>Relaxed, affordable apartments in a location that makes daily life easy.</SectionTitle>
-              <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">
-                Suites Angelica offers relaxed coastal living with warm rustic character, a shared pool, and a small-building atmosphere. The best part is the location: walk to the beach, restaurants, cafes, shops, and everyday essentials.
-            </p>
+              <div className="mt-8 grid gap-4 sm:grid-cols-2">
+  <div className="rounded-2xl border border-slate-200 p-5">
+    <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Location</p>
+    <p className="mt-2 text-[16px] text-slate-900">Golden Zone Bucerias</p>
+  </div>
+  <div className="rounded-2xl border border-slate-200 p-5">
+    <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Beach</p>
+    <p className="mt-2 text-[16px] text-slate-900">About 3 blocks away</p>
+  </div>
+  <div className="rounded-2xl border border-slate-200 p-5">
+    <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Lifestyle</p>
+    <p className="mt-2 text-[16px] text-slate-900">Walkable and relaxed</p>
+  </div>
+  <div className="rounded-2xl border border-slate-200 p-5">
+    <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Rentals</p>
+    <p className="mt-2 text-[16px] text-slate-900">Annual, monthly and seasonal</p>
+  </div>
+</div>
           </div>
         </Container>
       </section>
@@ -67,7 +82,7 @@ export default function Home() {
         <Container>
           <div className="py-16 md:py-24">
             <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end"><SectionTitle>Explore the apartments</SectionTitle><Button href="/properties">See All 8 Apartments</Button></div>
-            <p className="mt-4 max-w-[720px] text-[16px] leading-[1.75] text-slate-900/68">Each apartment has its own simple charm, with the same main advantages: an affordable setup, a convenient Golden Zone location, and access to the shared pool.</p>
+            <p className="mt-4 max-w-[560px] text-[16px] leading-[1.65] text-slate-900/68">   Choose from 8 apartments with shared pool access and a walkable Golden Zone location. </p>
             <div className="mt-10 grid gap-8 md:grid-cols-3">
               {featured.map((property) => (
                 <Link href={`/properties/${property.slug}`} key={property.slug} className="group overflow-hidden rounded-2xl border border-slate-200/70 bg-white shadow-sm transition hover:-translate-y-[2px] hover:shadow-lg">
@@ -84,7 +99,7 @@ export default function Home() {
         <Container>
           <div className="mx-auto max-w-[780px] py-16 text-center md:py-24">
             <SectionTitle>Looking for a place you can come back to every year?</SectionTitle>
-            <p className="mt-5 text-[17px] leading-[1.75] text-slate-900/70">Ask us about annual leases, seasonal stays, monthly rentals, or shorter visits. Many guests like having a familiar place in Bucerias they can return to year after year.</p>
+            <p className="mt-5 max-w-[560px] text-[17px] leading-[1.65] text-slate-900/70">   Ask us about annual leases, seasonal stays, monthly rentals, or shorter visits. </p>
             <div className="mt-8"><Button href="/contact">Contact Us</Button></div>
           </div>
         </Container>
