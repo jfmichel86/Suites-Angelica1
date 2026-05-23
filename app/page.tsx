@@ -28,7 +28,7 @@ export default function Home() {
               Your own easy home base in Bucerias’ Golden Zone.
             </h1>
             <p className="mt-6 max-w-[640px] text-[18px] leading-[1.75] text-slate-900/72">
-                Suites Angelica is a small tower of 8 warm, rustic-style apartments in one of Bucerias’ most walkable areas. A comfortable option for Canadians who want an affordable place to return to, settle into, and enjoy the Bucerias lifestyle.
+                Suites Angelica is a small tower of 8 warm, rustic-style apartments in one of Bucerias’ most walkable areas. A comfortable option for expats, remote workers, retirees, and long-stay visitors looking for an affordable place to settle into.
             </p>
             <div className="mt-8 flex flex-wrap gap-4"><Button href="/properties">View Apartments</Button><Link href="/contact" className="inline-flex h-11 items-center text-[15px] font-medium underline underline-offset-4">Ask About Availability</Link></div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
           <div className="mx-auto max-w-[860px] py-16 text-center md:py-24">
             <SectionTitle>Relaxed, affordable apartments in a location that makes daily life easy.</SectionTitle>
               <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">
-                Suites Angelica offers a simple coastal living experience with a warm, rustic character. The real value is the location, the shared pool, the small building atmosphere, and the ability to walk to the beach, restaurants, cafes, shops, and everyday essentials.
+                Suites Angelica offers relaxed coastal living with warm rustic character, a shared pool, and a small-building atmosphere. The best part is the location: walk to the beach, restaurants, cafes, shops, and everyday essentials.
             </p>
           </div>
         </Container>
@@ -84,7 +84,7 @@ export default function Home() {
         <Container>
           <div className="mx-auto max-w-[780px] py-16 text-center md:py-24">
             <SectionTitle>Looking for a place you can come back to every year?</SectionTitle>
-            <p className="mt-5 text-[17px] leading-[1.75] text-slate-900/70">Ask us about current availability for annual leases, seasonal stays, or shorter visits. Many guests prefer having a familiar second home in Bucerias where they can return year after year.</p>
+            <p className="mt-5 text-[17px] leading-[1.75] text-slate-900/70">Ask us about annual leases, seasonal stays, monthly rentals, or shorter visits. Many guests like having a familiar place in Bucerias they can return to year after year.</p>
             <div className="mt-8"><Button href="/contact">Contact Us</Button></div>
           </div>
         </Container>
