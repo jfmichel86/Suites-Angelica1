@@ -14,7 +14,6 @@ export default function Properties() {
         <div className="mx-auto max-w-[820px] px-6 py-16 text-center md:py-24">
           <p className="text-[12px] font-semibold uppercase tracking-[0.22em] text-slate-900/45">8 apartments · one small building</p>
           <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-tight text-slate-900 md:text-5xl">Affordable apartments for making Bucerias feel like home.</h1>
-          <p className="mt-5 max-w-[560px] text-[17px] leading-[1.65] text-slate-900/70">   Ask us about annual leases, seasonal stays, monthly rentals, or shorter visits. </p>
         </div>
       </section>
       <div className="mx-auto max-w-[1100px] px-6"><div className="border-t border-slate-200" /></div>
