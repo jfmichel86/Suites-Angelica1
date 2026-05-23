@@ -25,7 +25,7 @@ export default function ContactPage() {
           <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-16">
             <div className="space-y-6 md:col-span-6">
               <h2 className="font-serif text-3xl leading-[1.12] tracking-tight text-slate-900 md:text-4xl">Simple communication, no pressure.</h2>
-              <p className="text-[17px] leading-[1.7] text-slate-900/75">We know many guests are planning from Canada and want straightforward answers before making a decision. Send us your dates, questions, and preferred rental length, and we will help you understand which apartment may work best.</p>
+              <p className="text-[17px] leading-[1.7] text-slate-900/75">We know many guests plan their stay from abroad and want clear answers before making a decision. Send us your dates, questions, and preferred rental length, and we will help you understand which apartment may work best.</p>
               <div className="rounded-2xl border border-slate-200 bg-white p-5 text-[15px] leading-[1.75] text-slate-700 shadow-sm">
                 <p className="font-medium text-slate-900">Helpful details to include:</p>
                 <p className="mt-2">Preferred arrival and departure dates, number of guests, desired length of stay, whether you are interested in returning each year, and whether ground-floor access is important.</p>
