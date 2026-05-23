@@ -39,7 +39,7 @@ export default function Properties() {
       </section>
       <section className="bg-slate-50 py-20">
         <div className="mx-auto max-w-[850px] px-6 text-center">
-          <h2 className="font-serif text-2xl leading-snug text-slate-900 md:text-3xl">Looking for an annual lease, a winter season stay, or a shorter visit? Tell us your plans and we will help you find the best available fit.</h2>
+          <h2 className="font-serif text-2xl leading-snug text-slate-900 md:text-3xl">   Annual, monthly, seasonal, and limited shorter stays may be available. </h2>
           <Link href="/contact" className="mt-8 inline-flex h-11 items-center justify-center rounded-lg border border-slate-900/40 px-5 text-[15px] font-medium text-slate-900 transition hover:bg-slate-900/[0.03]">Ask About Availability</Link>
         </div>
       </section>
