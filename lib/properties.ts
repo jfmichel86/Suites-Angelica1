@@ -47,7 +47,7 @@ export const properties: Property[] = [
     floor: "Second floor",
     bedrooms: "1 bedroom",
     summary: "A relaxed apartment close to restaurants, cafes, shops, and the beach.",
-    description: "Suite 202 gives guests a relaxed home base in one of the most convenient areas of Bucerias. It is a good fit for Canadians who want a comfortable apartment, a small-building atmosphere, and the freedom to walk to many of their favorite places.",
+    description: "Suite 202 gives guests a relaxed home base in one of the most convenient areas of Bucerias. It is a good fit for expats and seasonal residents who want a comfortable apartment, a small-building atmosphere, and the freedom to walk to many of their favorite places.",
     features: ["Second-floor location", "Air conditioning", "Kitchen basics", "Wi-Fi", "Shared pool", "Golden Zone location"]
   },
   {
