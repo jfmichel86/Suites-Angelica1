@@ -99,7 +99,6 @@ export default function Home() {
         <Container>
           <div className="mx-auto max-w-[780px] py-16 text-center md:py-24">
             <SectionTitle>Looking for a place you can come back to every year?</SectionTitle>
-            <p className="mt-5 max-w-[560px] text-[17px] leading-[1.65] text-slate-900/70">   Ask us about annual leases, seasonal stays, monthly rentals, or shorter visits. </p>
             <div className="mt-8"><Button href="/contact">Contact Us</Button></div>
           </div>
         </Container>
