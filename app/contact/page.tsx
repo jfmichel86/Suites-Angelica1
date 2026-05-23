@@ -3,8 +3,8 @@ import ContactForm from "./ContactForm";
 import Container from "@/components/Container";
 
 export const metadata = {
-  title: "Contact Suites Angelica",
-  description: "Contact Suites Angelica about annual leases, seasonal stays, monthly rentals, and shorter visits in Bucerias' Golden Zone.",
+  title: "Contact Suites Angelica | Bucerias Apartment Rentals",
+  description: "Contact Suites Angelica about furnished apartment rentals in Bucerias' Golden Zone, including monthly, seasonal, and long-term stays.",
 };
 
 export default function ContactPage() {
@@ -13,7 +13,7 @@ export default function ContactPage() {
       <section className="bg-white">
         <Container>
           <div className="mx-auto max-w-[780px] py-16 text-center md:py-24">
-            <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-tight text-slate-900 md:text-5xl">Ask about availability at Suites Angelica.</h1>
+            <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-tight text-slate-900 md:text-5xl">Ask about furnished apartment availability in Bucerias.</h1>
           </div>
         </Container>
       </section>
