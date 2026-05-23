@@ -25,10 +25,10 @@ export default function Home() {
           <div className="relative z-10 max-w-[700px] py-16 md:py-24">
             <p className="text-[12px] font-semibold uppercase tracking-[0.22em] text-slate-900/50">Bucerias Golden Zone · Nayarit, Mexico</p>
             <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-[-0.015em] text-slate-900 sm:text-5xl md:text-6xl">
-              Your own easy home base in Bucerias’ Golden Zone.
+              Furnished apartments for rent in Bucerias’ Golden Zone.
             </h1>
             <p className="mt-6 max-w-[560px] text-[18px] leading-[1.65] text-slate-900/72">
-              Warm, rustic-style apartments in Bucerias’ Golden Zone, close to the beach, restaurants, cafes, and everyday essentials.
+              Quiet, furnished apartments in Bucerias, Nayarit, about three blocks from the beach and close to restaurants, cafes, and daily essentials.
             </p>
             <div className="mt-8 flex flex-wrap gap-4"><Button href="/properties">View Apartments</Button><Link href="/contact" className="inline-flex h-11 items-center text-[15px] font-medium underline underline-offset-4">Ask About Availability</Link></div>
           </div>
@@ -38,7 +38,7 @@ export default function Home() {
       <section className="bg-[#f1f4f8]">
         <Container>
           <div className="mx-auto max-w-[860px] py-16 text-center md:py-24">
-            <SectionTitle>Relaxed, affordable apartments in a location that makes daily life easy.</SectionTitle>
+            <SectionTitle>Monthly, seasonal, and long-term rentals in a walkable beach-town location.</SectionTitle>
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
   <div className="rounded-2xl border border-slate-200 p-5">
     <p className="text-sm uppercase tracking-[0.2em] text-slate-500">Location</p>
@@ -65,10 +65,10 @@ export default function Home() {
         <Container>
           <div className="grid gap-10 py-16 md:grid-cols-2 md:py-24">
             <div>
-              <SectionTitle>Stay in the area many foreign residents choose year after year.</SectionTitle>
-              <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">Suites Angelica is in Bucerias’ Golden Zone, one of the most walkable and desirable parts of town. From here, you can enjoy simple daily routines without depending on a car.</p>
+              <SectionTitle>Stay in one of Bucerias’ most convenient areas for expats, remote workers, and seasonal residents.</SectionTitle>
+              <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">Suites Angelica is in Bucerias’ Golden Zone, one of the most walkable areas of town. The location works well for long-term renters, expats, retirees, digital nomads, and seasonal visitors who want daily life to feel simple.</p>
               <ul className="mt-6 space-y-3 text-[16px] leading-[1.75] text-slate-900/75">
-                {['About 3 blocks from the beach','Shared pool for residents and guests','Close to restaurants, cafes, and everyday essentials','Small building with only 8 apartments','A practical option for annual, monthly, and seasonal stays'].map((item) => <li key={item} className="flex gap-3"><span className="mt-[10px] h-[2px] w-3 bg-slate-900/40" />{item}</li>)}
+                {['About 3 blocks from the beach','Shared pool for residents and guests','Close to restaurants, cafes, and everyday essentials','Small building with only 8 apartments','A practical option for long-term, monthly, and seasonal rentals'].map((item) => <li key={item} className="flex gap-3"><span className="mt-[10px] h-[2px] w-3 bg-slate-900/40" />{item}</li>)}
               </ul>
             </div>
             <div className="relative overflow-hidden rounded-2xl">
@@ -82,12 +82,15 @@ export default function Home() {
         <Container>
           <div className="py-16 md:py-24">
             <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end"><SectionTitle>Explore the apartments</SectionTitle><Button href="/properties">See All 8 Apartments</Button></div>
-            <p className="mt-4 max-w-[560px] text-[16px] leading-[1.65] text-slate-900/68">   Choose from 8 apartments with shared pool access and a walkable Golden Zone location. </p>
+            <p className="mt-4 max-w-[560px] text-[16px] leading-[1.65] text-slate-900/68">   Choose from 8 furnished apartments with shared pool access in Bucerias’ Golden Zone. </p>
             <div className="mt-10 grid gap-8 md:grid-cols-3">
               {featured.map((property) => (
                 <Link href={`/properties/${property.slug}`} key={property.slug} className="group overflow-hidden rounded-2xl border border-slate-200/70 bg-white shadow-sm transition hover:-translate-y-[2px] hover:shadow-lg">
                   <Image src={property.image} alt={property.name} width={900} height={650} className="h-64 w-full object-cover transition duration-700 group-hover:scale-[1.03]" />
-                  <div className="p-6"><h3 className="font-serif text-2xl text-slate-900">{property.name}</h3><p className="mt-3 text-[15px] leading-[1.65] text-slate-600">{property.summary}</p></div>
+                  <div className="p-6">
+                    <h3 className="font-serif text-2xl text-slate-900">{property.name}</h3>
+                    <p className="mt-4 text-[14px] font-medium text-slate-900/75">View apartment details →</p>
+                  </div>
                 </Link>
               ))}
             </div>
