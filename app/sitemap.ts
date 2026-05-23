@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { properties } from "@/lib/properties";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://www.suitesangelica.com";
+  const base = "https://suitesangelica.com";
   return [
     { url: `${base}/`, lastModified: new Date() },
     { url: `${base}/properties`, lastModified: new Date() },
