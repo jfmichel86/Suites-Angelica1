@@ -3,8 +3,8 @@ import Image from "next/image";
 import { properties } from "@/lib/properties";
 
 export const metadata = {
-  title: "Apartments in Bucerias Golden Zone",
-  description: "View the 8 affordable rustic-style apartments at Suites Angelica for annual, seasonal, monthly, and shorter stays in Bucerias' Golden Zone.",
+  title: "Furnished Apartments for Rent in Bucerias Golden Zone",
+  description: "View 8 furnished apartments for rent in Bucerias' Golden Zone. Monthly, seasonal, and long-term rental options near the beach.",
 };
 
 export default function Properties() {
@@ -13,7 +13,7 @@ export default function Properties() {
       <section className="bg-white">
         <div className="mx-auto max-w-[820px] px-6 py-16 text-center md:py-24">
           <p className="text-[12px] font-semibold uppercase tracking-[0.22em] text-slate-900/45">8 apartments · one small building</p>
-          <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-tight text-slate-900 md:text-5xl">Affordable apartments for making Bucerias feel like home.</h1>
+          <h1 className="mt-4 font-serif text-4xl leading-[1.08] tracking-tight text-slate-900 md:text-5xl">Furnished apartments for rent in Bucerias’ Golden Zone.</h1>
         </div>
       </section>
       <div className="mx-auto max-w-[1100px] px-6"><div className="border-t border-slate-200" /></div>
@@ -38,7 +38,7 @@ export default function Properties() {
       </section>
       <section className="bg-slate-50 py-20">
         <div className="mx-auto max-w-[850px] px-6 text-center">
-          <h2 className="font-serif text-2xl leading-snug text-slate-900 md:text-3xl">   Annual, monthly, seasonal, and limited shorter stays may be available. </h2>
+          <h2 className="font-serif text-2xl leading-snug text-slate-900 md:text-3xl">   Monthly, seasonal, and long-term rental options may be available. </h2>
           <Link href="/contact" className="mt-8 inline-flex h-11 items-center justify-center rounded-lg border border-slate-900/40 px-5 text-[15px] font-medium text-slate-900 transition hover:bg-slate-900/[0.03]">Ask About Availability</Link>
         </div>
       </section>
