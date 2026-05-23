@@ -57,7 +57,7 @@ export const properties: Property[] = [
     floor: "Third floor",
     bedrooms: "1 bedroom",
     summary: "A well-located apartment in one of Bucerias’ most attractive areas.",
-    description: "Suite 301 offers a comfortable, rustic-style space in the Golden Zone, one of the areas most appreciated by Canadian visitors and residents. It is a practical option for guests who want to spend more time enjoying Bucerias and less time worrying about transportation.",
+    description: "Suite 301 offers a comfortable, rustic-style space in the Golden Zone, one of the areas most appreciated by expats, seasonal visitors, and long-term residents. It is a practical option for guests who want to spend more time enjoying Bucerias and less time worrying about transportation.",
     features: ["Third-floor location", "Air conditioning", "Kitchen basics", "Wi-Fi", "Shared pool", "Walk to the beach"]
   },
   {
