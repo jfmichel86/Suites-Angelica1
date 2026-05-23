@@ -4,7 +4,7 @@ import SiteFooter from "@/components/SiteFooter";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.suitesangelica.com"),
+  metadataBase: new URL("https://suitesangelica.com"),
   title: {
     default: "Suites Angelica | Furnished Apartments for Rent in Bucerías, Mexico",
     template: "%s | Suites Angelica",
