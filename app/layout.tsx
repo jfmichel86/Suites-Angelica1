@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   keywords: [
   "Bucerias apartments",
   "Bucerías apartments",
-  "Bucerías condos"
-   "Bucerias condos"
+  "Bucerías condos",
+   "Bucerias condos",
   "furnished apartments Bucerias",
   "long term rentals Bucerias",
   "monthly rentals Bucerias",
