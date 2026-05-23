@@ -65,7 +65,7 @@ export default function Home() {
         <Container>
           <div className="grid gap-10 py-16 md:grid-cols-2 md:py-24">
             <div>
-              <SectionTitle>Stay in the area many Canadian visitors choose year after year.</SectionTitle>
+              <SectionTitle>Stay in the area many foreign residents choose year after year.</SectionTitle>
               <p className="mt-5 text-[17px] leading-[1.8] text-slate-900/70">Suites Angelica is in Bucerias’ Golden Zone, one of the most walkable and desirable parts of town. From here, you can enjoy simple daily routines without depending on a car.</p>
               <ul className="mt-6 space-y-3 text-[16px] leading-[1.75] text-slate-900/75">
                 {['About 3 blocks from the beach','Shared pool for residents and guests','Close to restaurants, cafes, and everyday essentials','Small building with only 8 apartments','A practical option for annual, monthly, and seasonal stays'].map((item) => <li key={item} className="flex gap-3"><span className="mt-[10px] h-[2px] w-3 bg-slate-900/40" />{item}</li>)}
